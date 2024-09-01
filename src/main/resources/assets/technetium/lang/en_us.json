@@ -1,0 +1,11 @@
+{
+  "item.technetium.raw_technetium": "Raw Technetium",
+  "item.technetium.technetium_ingot": "Technetium Ingot",
+
+  "block.technetium.raw_technetium_block": "Block of Raw Technetium",
+  "block.technetium.technetium_block": "Block of Technetium",
+  "block.technetium.technetium_ore": "Technetium Ore",
+  "block.technetium.deepslate_technetium_ore": "Deepslate Technetium Ore",
+
+  "itemgroup.technetium": "Technetium"
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "technetium",
+	"version": "${version}",
+	"name": "Technetium",
+	"description": "A mod that adds an ore called Technetium.",
+	"authors": [
+		"scarcekoi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT License",
+	"icon": "assets/technetium/icon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.scarcekoi.technetium.Technetium"
+		],
+		"client": [
+			"net.scarcekoi.technetium.TechnetiumClient"
+		],
+		"fabric-datagen": [
+			"net.scarcekoi.technetium.TechnetiumDataGenerator"
+		]
+	},
+	"mixins": [
+		"technetium.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": ">=1.20 <=1.20.2",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"modmenu": "modmenu",
+		"sodium": "sodium"
+	}
+}
