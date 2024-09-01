@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#technetium:technetium_ores",
+    "technetium:raw_technetium_block",
+    "technetium:technetium_block"
+  ]
+}
