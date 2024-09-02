@@ -2,10 +2,10 @@ package net.scarcekoi.technetium;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.scarcekoi.technetium.block.ModBlocks;
-import net.scarcekoi.technetium.item.ModItemGroups;
-import net.scarcekoi.technetium.item.ModItems;
-import net.scarcekoi.technetium.world.gen.ModWorldGeneration;
+import net.scarcekoi.technetium.block.TechnetiumBlocks;
+import net.scarcekoi.technetium.item.TechnetiumItemGroups;
+import net.scarcekoi.technetium.item.TechnetiumItems;
+import net.scarcekoi.technetium.world.gen.TechnetiumWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,11 +15,11 @@ public class Technetium implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		ModItemGroups.registerItemGroups();
+		TechnetiumItemGroups.registerItemGroups();
 
-		ModItems.registerModItems();
-		ModBlocks.registerModBlocks();
+		TechnetiumItems.registerModItems();
+		TechnetiumBlocks.registerModBlocks();
 
-		ModWorldGeneration.generateModWorldGen();
+		TechnetiumWorldGeneration.generateModWorldGen();
 	}
 }
