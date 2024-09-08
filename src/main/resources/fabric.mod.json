@@ -3,7 +3,7 @@
 	"id": "technetium",
 	"version": "${version}",
 	"name": "Technetium",
-	"description": "A mod that adds an ore called Technetium.",
+	"description": "Adds an ore called Technetium.",
 	"authors": [
 		"scarcekoi"
 	],
