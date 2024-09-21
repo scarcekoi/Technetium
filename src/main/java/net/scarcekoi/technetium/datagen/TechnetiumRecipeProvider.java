@@ -54,7 +54,7 @@ public class TechnetiumRecipeProvider extends FabricRecipeProvider {
                 TechnetiumBlocks.RAW_TECHNETIUM_BLOCK,
                 convertBetween(TechnetiumBlocks.RAW_TECHNETIUM_BLOCK, TechnetiumItems.RAW_TECHNETIUM),
                 "technetium",
-                convertBetween(TechnetiumItems.TECHNETIUM_INGOT, TechnetiumBlocks.TECHNETIUM_BLOCK),
+                convertBetween(TechnetiumItems.RAW_TECHNETIUM, TechnetiumBlocks.RAW_TECHNETIUM_BLOCK),
                 "technetium"
         );
         offerReversibleCompactingRecipes(exporter,
