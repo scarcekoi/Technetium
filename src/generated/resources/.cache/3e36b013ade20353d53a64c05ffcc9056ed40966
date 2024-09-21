@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-21T12:59:43.8162525	Technetium/Create's Processing Recipes: crushing
+// 1.20.1	2024-09-21T13:39:48.6817703	Technetium/Create's Processing Recipes: crushing
 419e80e49fc24da0b5c6aa1fbdee1a1dc01960fb data\technetium\recipes\crushing\asurine.json
 594fc2eed4b5eab4cd3f48db6b85578f7c351ff8 data\technetium\recipes\crushing\osmium_ore.json
 07ba8609a62c8e827a6fce4449bc18990012b013 data\technetium\recipes\crushing\raw_lead_ore.json
@@ -22,6 +22,7 @@ e266d091252d692dcd0618f34754536fe0aa98b3 data\technetium\recipes\crushing\deepsl
 0750812e111245555358e0cb5b2ff110c53ccd35 data\technetium\recipes\crushing\raw_uranium_block.json
 8e20ddc94fda889dbac25de59e7a3158984098c3 data\technetium\recipes\crushing\amethyst_cluster.json
 97beb27a8fb05f799c215a4cb5691d4e03a6820e data\technetium\recipes\crushing\tuff.json
+4390497ee1bd6c9674523b5f6340b6e672e17d20 data\technetium\recipes\crushing\technetium_ore.json
 f48f8f1702697f04f420008a002561a96087d424 data\technetium\recipes\crushing\raw_iron.json
 b6995978092ed3080efd49e52571ff59205f7c85 data\technetium\recipes\crushing\deepslate_coal_ore.json
 66f75530e30d8572bdbf4696a32edc5a7850ac00 data\technetium\recipes\crushing\obsidian.json
@@ -41,11 +42,10 @@ df364151c75a7d84446b2c6213e339115bc9d298 data\technetium\recipes\crushing\diorit
 8b94cbe4acf4e5059cbad063617264e585f77217 data\technetium\recipes\crushing\quicksilver_ore.json
 e4a159fdf95139aa18577def0c590d2eba68cd9b data\technetium\recipes\crushing\raw_tin_block.json
 931a66992ccb5accdb435dca6fe6532e86250c0d data\technetium\recipes\crushing\zinc_ore.json
-d697fdfb1a7d0ddb3aad17592fda8e5f40bf19de data\technetium\recipes\crushing\raw_technetium_block.json
+6a01c5fba875b7ffaa32c1604b38d7522b4ee030 data\technetium\recipes\crushing\raw_technetium_block.json
 855b6655dea911724ee68d07b993f17440ac422e data\technetium\recipes\crushing\lapis_ore.json
 bfd5baa72a48ef29c3141b57a88f5ead0f723614 data\technetium\recipes\crushing\veridium_recycling.json
 f77190f83190cb0491d77c79f618c7ecb1169dd9 data\technetium\recipes\crushing\raw_iron_block.json
-c886cc365ee629aef5695708c2f787662124b64d data\technetium\recipes\crushing\technetium_block.json
 3c4b4ba3ca2487091d45b4f89185eed0c5cfe352 data\technetium\recipes\crushing\silver_ore.json
 3c4c78e3a7137022f8f6e90324af6c8f97050e80 data\technetium\recipes\crushing\glowstone.json
 79775097db26ca297b8b1ab1b0f6a1666df0c39e data\technetium\recipes\crushing\raw_zinc_block.json
@@ -69,7 +69,7 @@ efa4c84119f0aa998a6b3f477884f81b28d8bd91 data\technetium\recipes\crushing\raw_co
 60262e911676a7f8309408fd15b373f1498493b9 data\technetium\recipes\crushing\amethyst_block.json
 66b51fd1036641802667338a1d79a825a338077c data\technetium\recipes\crushing\blaze_rod.json
 d574b04fdc6d91056905c17277b9311c21340172 data\technetium\recipes\crushing\raw_platinum_ore.json
-b5ed4476102e07cc966592d3cd02ec68657b1d62 data\technetium\recipes\crushing\technetium_ingot.json
+12a659787bfe65dfe5f430f4b57b63fccb22e1fb data\technetium\recipes\crushing\technetium_ingot.json
 95b76da439260151355fff74b3b7398ce13d6968 data\technetium\recipes\crushing\golden_horse_armor.json
 cc939ba59b95db1c7a034df6f9e656772074a5fd data\technetium\recipes\crushing\gravel.json
 c7c0d94707c2858a87d01cff6b284d7fb85acdbe data\technetium\recipes\crushing\nether_quartz_ore.json
@@ -82,4 +82,5 @@ b036b1654d2deec20aca95ff43b60c7d0b28b2fc data\technetium\recipes\crushing\gold_o
 4ea9af610b89646d4075a3b7daa969c2e7b282ad data\technetium\recipes\crushing\raw_nickel_block.json
 b135e3faf6afef4b6a5f00197997b47ff8e90568 data\technetium\recipes\crushing\wool.json
 29e7e74108755e0a07b1d3d1e8d4dcaf2b401572 data\technetium\recipes\crushing\coal_ore.json
+1c5c937fb334b16fe352c987a75429424f0c4349 data\technetium\recipes\crushing\deepslate_technetium_ore.json
 acb785fd57d14ac337beacc0a0a0651d75dd45da data\technetium\recipes\crushing\prismarine_crystals.json
