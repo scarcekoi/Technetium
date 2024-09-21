@@ -1,0 +1,27 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    {
+      "item": "technetium:technetium_ore"
+    }
+  ],
+  "processingTime": 250,
+  "results": [
+    {
+      "count": 5,
+      "item": "technetium:raw_technetium"
+    },
+    {
+      "chance": 0.25,
+      "item": "technetium:raw_technetium"
+    },
+    {
+      "chance": 0.75,
+      "item": "create:experience_nugget"
+    },
+    {
+      "chance": 0.125,
+      "item": "minecraft:cobblestone"
+    }
+  ]
+}
