@@ -67,15 +67,5 @@ public class TechnetiumRecipeProvider extends FabricRecipeProvider {
                 convertBetween(TechnetiumItems.TECHNETIUM_POWDER, TechnetiumItems.TECHNETIUM_INGOT),
                 "technetium"
         );
-        offerReversibleCompactingRecipes(exporter,
-                RecipeCategory.MISC,
-                TechnetiumItems.TECHNETIUM_INGOT,
-                RecipeCategory.MISC,
-                TechnetiumBlocks.TECHNETIUM_BLOCK,
-                convertBetween(TechnetiumBlocks.TECHNETIUM_BLOCK, TechnetiumItems.TECHNETIUM_INGOT),
-                "technetium",
-                convertBetween(TechnetiumItems.TECHNETIUM_INGOT, TechnetiumBlocks.TECHNETIUM_BLOCK),
-                "technetium"
-        );
     }
 }
