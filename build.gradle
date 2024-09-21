@@ -11,23 +11,27 @@ base {
 }
 
 repositories {
-	// Add repositories to retrieve artifacts from in here.
-	// You should only use this when depending on other mods because
-	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
-	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
-	// for more information about repositories.
-	maven { url = "https://maven.shedaniel.me/" } // Cloth Config, REI
-	maven { url = "https://maven.blamejared.com/" } // JEI
-	maven { url = "https://maven.parchmentmc.org" } // Parchment mappings
-	maven { url = "https://maven.quiltmc.org/repository/release" } // Quilt Mappings
-	maven { url = "https://api.modrinth.com/maven" } // LazyDFU
-	maven { url = "https://maven.terraformersmc.com/releases/" } // Mod Menu
-	maven { url = "https://mvn.devos.one/snapshots/" } // Create, Porting Lib, Forge Tags, Milk Lib, Registrate
-	maven { url = "https://mvn.devos.one/releases/" } // Porting Lib Releases
+	maven { url = "https://maven.quiltmc.org/repository/release" } // QM
+	maven { url = "https://maven.parchmentmc.org" } // Parchment
+	maven { url = "https://maven.fabricmc.net/" } // FAPI, Loader
+	maven { url = "https://mvn.devos.one/snapshots/" } // Registrate, Forge Tags, Milk Lib
+	maven { url = "https://mvn.devos.one/releases/" } // Porting Lib
+	maven { // for Porting Lib: Mixin Extras, Fabric ASM
+		url = "https://jitpack.io/"
+		content { includeGroupAndSubgroups("com.github") }
+	}
 	maven { url = "https://raw.githubusercontent.com/Fuzss/modresources/main/maven/" } // Forge Config API Port
-	maven { url = "https://maven.jamieswhiteshirt.com/libs-release" } // Reach Entity Attributes
-	maven { url = "https://jitpack.io/" } // Mixin Extras, Fabric ASM
 	maven { url = "https://maven.tterrag.com/" } // Flywheel
+	maven { url = "https://maven.shedaniel.me/" } // REI and deps
+	maven { url = "https://api.modrinth.com/maven" } // LazyDFU, Sodium, Sandwichable
+	maven { url = "https://maven.terraformersmc.com/" } // Mod Menu, Trinkets
+	maven { url = "https://squiddev.cc/maven" } // CC:T
+	maven { url = "https://modmaven.dev" } // Botania
+	maven { // Reach Entity Attributes
+		url = "https://maven.jamieswhiteshirt.com/libs-release"
+		content { includeGroup("com.jamieswhiteshirt") }
+	}
+	maven { url = "https://maven.ladysnake.org/releases" } // CCA, for Trinkets
 }
 
 loom {
@@ -38,7 +42,7 @@ loom {
 			name = "Minecraft Data"
 			vmArg("-Dfabric-api.datagen")
 			vmArg("-Dfabric-api.datagen.output-dir=${project.file("src/generated/resources")}")
-			vmArg("-Dfabric-api.datagen.modid=<technetium>")
+			vmArg("-Dfabric-api.datagen.modid=technetium")
 			vmArg("-Dporting_lib.datagen.existing_resources=${project.file("src/main/resources")}")
 		}
 	}
