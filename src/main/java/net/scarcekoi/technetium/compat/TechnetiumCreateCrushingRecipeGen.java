@@ -19,8 +19,8 @@ public class TechnetiumCreateCrushingRecipeGen extends CrushingRecipeGen {
             .output(TechnetiumItems.CRUSHED_RAW_TECHNETIUM)
             .output(.75f, AllItems.EXP_NUGGET.get())),
             TECHNETIUM_INGOT = create(Technetium.MOD_ID,() -> TechnetiumItems.TECHNETIUM_INGOT, b -> b.duration(400)
-            .output(TechnetiumItems.TECHNETIUM_POWDER, 9)
-            .output(.01f, TechnetiumItems.TECHNETIUM_POWDER, 3)
+            .output(TechnetiumItems.TECHNETIUM_POWDER, 4)
+            .output(.01f, TechnetiumItems.TECHNETIUM_POWDER, 6)
             .output(.75f, AllItems.EXP_NUGGET.get())),
             RAW_TECHNETIUM_BLOCK = create(Technetium.MOD_ID,() -> TechnetiumBlocks.RAW_TECHNETIUM_BLOCK, b -> b.duration(400)
             .output(TechnetiumItems.RAW_TECHNETIUM, 9)

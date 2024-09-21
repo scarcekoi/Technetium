@@ -4,9 +4,9 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.util.Identifier;
 import net.scarcekoi.technetium.block.TechnetiumBlocks;
 import net.scarcekoi.technetium.item.TechnetiumItems;
 
@@ -57,15 +57,12 @@ public class TechnetiumRecipeProvider extends FabricRecipeProvider {
                 convertBetween(TechnetiumItems.RAW_TECHNETIUM, TechnetiumBlocks.RAW_TECHNETIUM_BLOCK),
                 "technetium"
         );
-        offerReversibleCompactingRecipes(exporter,
-                RecipeCategory.MISC,
-                TechnetiumItems.TECHNETIUM_POWDER,
-                RecipeCategory.MISC,
-                TechnetiumItems.TECHNETIUM_INGOT,
-                convertBetween(TechnetiumItems.TECHNETIUM_INGOT, TechnetiumItems.TECHNETIUM_POWDER),
-                "technetium",
-                convertBetween(TechnetiumItems.TECHNETIUM_POWDER, TechnetiumItems.TECHNETIUM_INGOT),
-                "technetium"
-        );
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, TechnetiumItems.TECHNETIUM_INGOT, 1)
+                .pattern("##")
+                .pattern("##")
+                .input('#', TechnetiumItems.TECHNETIUM_POWDER)
+                .criterion(hasItem(TechnetiumItems.TECHNETIUM_INGOT), conditionsFromItem(TechnetiumItems.TECHNETIUM_INGOT))
+                .offerTo(exporter, new Identifier(getRecipeName(TechnetiumItems.TECHNETIUM_POWDER)));
     }
 }

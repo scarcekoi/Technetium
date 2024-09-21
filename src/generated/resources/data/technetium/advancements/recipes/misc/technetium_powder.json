@@ -15,7 +15,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:technetium_powder_from_technetium_ingot"
+        "recipe": "minecraft:technetium_powder"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -28,7 +28,7 @@
   ],
   "rewards": {
     "recipes": [
-      "minecraft:technetium_powder_from_technetium_ingot"
+      "minecraft:technetium_powder"
     ]
   },
   "sends_telemetry_event": false
