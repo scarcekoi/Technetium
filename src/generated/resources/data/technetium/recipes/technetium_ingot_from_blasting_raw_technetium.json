@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "technetium",
+  "ingredient": {
+    "item": "technetium:raw_technetium"
+  },
+  "result": "technetium:technetium_ingot"
+}

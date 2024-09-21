@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "technetium:raw_technetium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "technetium:raw_technetium"
+  }
+}

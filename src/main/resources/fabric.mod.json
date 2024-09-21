@@ -22,7 +22,7 @@
 		"client": [
 			"net.scarcekoi.technetium.TechnetiumClient"
 		],
-		"datagen": [
+		"fabric-datagen": [
 			"net.scarcekoi.technetium.TechnetiumDataGenerator"
 		]
 	},
