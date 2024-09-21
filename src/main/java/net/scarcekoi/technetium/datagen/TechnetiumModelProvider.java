@@ -26,5 +26,6 @@ public class TechnetiumModelProvider extends FabricModelProvider {
         itemModelGenerator.register(TechnetiumItems.RAW_TECHNETIUM, Models.GENERATED);
         itemModelGenerator.register(TechnetiumItems.TECHNETIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(TechnetiumItems.TECHNETIUM_POWDER, Models.GENERATED);
+        itemModelGenerator.register(TechnetiumItems.CRUSHED_RAW_TECHNETIUM, Models.GENERATED);
     }
 }

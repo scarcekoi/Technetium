@@ -18,6 +18,7 @@ public class TechnetiumItemGroups {
                         entries.add(TechnetiumItems.RAW_TECHNETIUM);
                         entries.add(TechnetiumItems.TECHNETIUM_INGOT);
                         entries.add(TechnetiumItems.TECHNETIUM_POWDER);
+                        entries.add(TechnetiumItems.CRUSHED_RAW_TECHNETIUM);
 
                         entries.add(TechnetiumBlocks.RAW_TECHNETIUM_BLOCK);
                         entries.add(TechnetiumBlocks.TECHNETIUM_BLOCK);

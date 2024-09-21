@@ -5,14 +5,14 @@
       "item": "technetium:technetium_ingot"
     }
   ],
-  "processingTime": 80,
+  "processingTime": 300,
   "results": [
     {
-      "count": 6,
+      "count": 9,
       "item": "technetium:technetium_powder"
     },
     {
-      "chance": 0.25,
+      "chance": 0.05,
       "count": 3,
       "item": "technetium:technetium_powder"
     },

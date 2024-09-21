@@ -1,5 +1,6 @@
 package net.scarcekoi.technetium.datagen;
 
+import com.simibubi.create.AllTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -19,5 +20,7 @@ public class TechnetiumItemTagProvider extends FabricTagProvider.ItemTagProvider
                 .add(TechnetiumItems.RAW_TECHNETIUM)
                 .add(TechnetiumItems.TECHNETIUM_INGOT)
                 .add(TechnetiumItems.TECHNETIUM_POWDER);
+        getOrCreateTagBuilder(AllTags.AllItemTags.CRUSHED_RAW_MATERIALS.tag)
+                .add(TechnetiumItems.CRUSHED_RAW_TECHNETIUM);
     }
 }

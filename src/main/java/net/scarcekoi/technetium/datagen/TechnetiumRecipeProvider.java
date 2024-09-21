@@ -41,21 +41,31 @@ public class TechnetiumRecipeProvider extends FabricRecipeProvider {
                 RecipeCategory.MISC,
                 TechnetiumItems.TECHNETIUM_INGOT,
                 RecipeCategory.MISC,
-                TechnetiumBlocks.TECHNETIUM_BLOCK);
+                TechnetiumBlocks.TECHNETIUM_BLOCK,
+                convertBetween(TechnetiumBlocks.TECHNETIUM_BLOCK, TechnetiumItems.TECHNETIUM_INGOT),
+                "technetium",
+                convertBetween(TechnetiumItems.TECHNETIUM_INGOT, TechnetiumBlocks.TECHNETIUM_BLOCK),
+                "technetium"
+        );
         offerReversibleCompactingRecipes(exporter,
                 RecipeCategory.MISC,
                 TechnetiumItems.RAW_TECHNETIUM,
                 RecipeCategory.MISC,
-                TechnetiumBlocks.RAW_TECHNETIUM_BLOCK);
+                TechnetiumBlocks.RAW_TECHNETIUM_BLOCK,
+                convertBetween(TechnetiumBlocks.RAW_TECHNETIUM_BLOCK, TechnetiumItems.RAW_TECHNETIUM),
+                "technetium",
+                convertBetween(TechnetiumItems.TECHNETIUM_INGOT, TechnetiumBlocks.TECHNETIUM_BLOCK),
+                "technetium"
+        );
         offerReversibleCompactingRecipes(exporter,
                 RecipeCategory.MISC,
                 TechnetiumItems.TECHNETIUM_POWDER,
                 RecipeCategory.MISC,
                 TechnetiumItems.TECHNETIUM_INGOT,
                 convertBetween(TechnetiumItems.TECHNETIUM_INGOT, TechnetiumItems.TECHNETIUM_POWDER),
-                null,
+                "technetium",
                 convertBetween(TechnetiumItems.TECHNETIUM_POWDER, TechnetiumItems.TECHNETIUM_INGOT),
-                null
+                "technetium"
         );
         offerReversibleCompactingRecipes(exporter,
                 RecipeCategory.MISC,
@@ -63,9 +73,9 @@ public class TechnetiumRecipeProvider extends FabricRecipeProvider {
                 RecipeCategory.MISC,
                 TechnetiumBlocks.TECHNETIUM_BLOCK,
                 convertBetween(TechnetiumBlocks.TECHNETIUM_BLOCK, TechnetiumItems.TECHNETIUM_INGOT),
-                null,
+                "technetium",
                 convertBetween(TechnetiumItems.TECHNETIUM_INGOT, TechnetiumBlocks.TECHNETIUM_BLOCK),
-                null
+                "technetium"
         );
     }
 }

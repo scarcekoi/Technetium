@@ -9,14 +9,20 @@ import net.minecraft.util.Identifier;
 import net.scarcekoi.technetium.Technetium;
 
 public class TechnetiumItems {
-    public static final Item RAW_TECHNETIUM = registerItem("raw_technetium", new Item(new FabricItemSettings()));
-    public static final Item TECHNETIUM_INGOT = registerItem("technetium_ingot", new Item(new FabricItemSettings()));
-    public static final Item TECHNETIUM_POWDER = registerItem("technetium_powder", new Item(new FabricItemSettings()));
+    public static final Item RAW_TECHNETIUM = registerItem("raw_technetium", new Item(new FabricItemSettings()
+            .fireproof()));
+    public static final Item TECHNETIUM_INGOT = registerItem("technetium_ingot", new Item(new FabricItemSettings()
+            .fireproof()));
+    public static final Item TECHNETIUM_POWDER = registerItem("technetium_powder", new Item(new FabricItemSettings()
+            .fireproof()));
+    public static final Item CRUSHED_RAW_TECHNETIUM = registerItem("crushed_raw_technetium", new Item(new FabricItemSettings()
+            .fireproof()));
 
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
         entries.add(RAW_TECHNETIUM);
         entries.add(TECHNETIUM_INGOT);
         entries.add(TECHNETIUM_POWDER);
+        entries.add(CRUSHED_RAW_TECHNETIUM);
     }
 
     public static Item registerItem(String name, Item item) {

@@ -1,4 +1,4 @@
-// 1.20.1	2024-09-21T13:39:48.6817703	Technetium/Create's Processing Recipes: crushing
+// 1.20.1	2024-09-21T17:04:43.9475208	Technetium/Create's Processing Recipes: crushing
 419e80e49fc24da0b5c6aa1fbdee1a1dc01960fb data\technetium\recipes\crushing\asurine.json
 594fc2eed4b5eab4cd3f48db6b85578f7c351ff8 data\technetium\recipes\crushing\osmium_ore.json
 07ba8609a62c8e827a6fce4449bc18990012b013 data\technetium\recipes\crushing\raw_lead_ore.json
@@ -28,6 +28,7 @@ b6995978092ed3080efd49e52571ff59205f7c85 data\technetium\recipes\crushing\deepsl
 66f75530e30d8572bdbf4696a32edc5a7850ac00 data\technetium\recipes\crushing\obsidian.json
 f5a557d31a1d0469f59c820469ec95d9b03e687a data\technetium\recipes\crushing\raw_tin_ore.json
 c9a47b29ba75ba29c8cb630fe32c4bf2f1f1d1ae data\technetium\recipes\crushing\iron_ore.json
+b223725ea932e1c8fb0131cab7d2cc80a19a6933 data\technetium\recipes\crushing\raw_technetium.json
 4afc9cc723bdee47ed2176f32323f1fca152765f data\technetium\recipes\crushing\deepslate_diamond_ore.json
 93181fd7a45f033d104b0802dce14c7f026cd956 data\technetium\recipes\crushing\raw_platinum_block.json
 07e8991a2161aab4dd73bb74900fd0c70aad2847 data\technetium\recipes\crushing\nether_gold_ore.json
@@ -64,12 +65,12 @@ e170bc17a796c73a05d2d77a85c086cfaac55c31 data\technetium\recipes\crushing\leathe
 26577895a8ac3c61187171784c5aa30d334ddc17 data\technetium\recipes\crushing\raw_gold.json
 4d4189d1f95378a40153ff8df311899f078ee0c9 data\technetium\recipes\crushing\nickel_ore.json
 efa4c84119f0aa998a6b3f477884f81b28d8bd91 data\technetium\recipes\crushing\raw_copper_block.json
-9922535a4b41d6af68df94168276abf308ea432c data\technetium\recipes\crushing\deepslate_gold_ore.json
 9e89294e53a94a05af47948c21ad192ef18f7710 data\technetium\recipes\crushing\emerald_ore.json
+9922535a4b41d6af68df94168276abf308ea432c data\technetium\recipes\crushing\deepslate_gold_ore.json
 60262e911676a7f8309408fd15b373f1498493b9 data\technetium\recipes\crushing\amethyst_block.json
 66b51fd1036641802667338a1d79a825a338077c data\technetium\recipes\crushing\blaze_rod.json
 d574b04fdc6d91056905c17277b9311c21340172 data\technetium\recipes\crushing\raw_platinum_ore.json
-12a659787bfe65dfe5f430f4b57b63fccb22e1fb data\technetium\recipes\crushing\technetium_ingot.json
+e3d0f7072d7f3db94c32e5620868bb721728f9dd data\technetium\recipes\crushing\technetium_ingot.json
 95b76da439260151355fff74b3b7398ce13d6968 data\technetium\recipes\crushing\golden_horse_armor.json
 cc939ba59b95db1c7a034df6f9e656772074a5fd data\technetium\recipes\crushing\gravel.json
 c7c0d94707c2858a87d01cff6b284d7fb85acdbe data\technetium\recipes\crushing\nether_quartz_ore.json
