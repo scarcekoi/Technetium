@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "technetium:technetium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "technetium:technetium_sheet"
+    }
+  ]
+}

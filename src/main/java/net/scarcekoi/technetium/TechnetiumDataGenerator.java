@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
 import net.scarcekoi.technetium.compat.TechnetiumCreateCrushingRecipeGen;
+import net.scarcekoi.technetium.compat.TechnetiumCreatePressingRecipeGen;
 import net.scarcekoi.technetium.datagen.*;
 import net.scarcekoi.technetium.world.TechnetiumConfiguredFeatures;
 import net.scarcekoi.technetium.world.TechnetiumPlacedFeatures;
@@ -22,6 +23,7 @@ public class TechnetiumDataGenerator implements DataGeneratorEntrypoint {
 		pack.addProvider(TechnetiumWorldGenerator::new);
 
 		pack.addProvider(TechnetiumCreateCrushingRecipeGen::new);
+		pack.addProvider(TechnetiumCreatePressingRecipeGen::new);
 	}
 
 	@Override

@@ -69,6 +69,7 @@ dependencies {
 
 	// Create - dependencies are added transitively
 	modImplementation("com.simibubi.create:create-fabric-${minecraft_version}:${create_version}")
+	modCompileOnly("me.shedaniel:RoughlyEnoughItems-api-fabric:${rei_version}")
 }
 
 processResources {

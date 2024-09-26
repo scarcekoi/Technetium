@@ -3,6 +3,8 @@
   "values": [
     "technetium:raw_technetium",
     "technetium:technetium_ingot",
-    "technetium:technetium_powder"
+    "technetium:technetium_powder",
+    "technetium:crushed_raw_technetium",
+    "technetium:technetium_sheet"
   ]
 }

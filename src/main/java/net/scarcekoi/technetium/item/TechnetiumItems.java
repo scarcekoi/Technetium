@@ -17,13 +17,8 @@ public class TechnetiumItems {
             .fireproof()));
     public static final Item CRUSHED_RAW_TECHNETIUM = registerItem("crushed_raw_technetium", new Item(new FabricItemSettings()
             .fireproof()));
-
-    private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries) {
-        entries.add(RAW_TECHNETIUM);
-        entries.add(TECHNETIUM_INGOT);
-        entries.add(TECHNETIUM_POWDER);
-        entries.add(CRUSHED_RAW_TECHNETIUM);
-    }
+    public static final Item TECHNETIUM_SHEET = registerItem("technetium_sheet", new Item(new FabricItemSettings()
+            .fireproof()));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Technetium.MOD_ID, name), item);
