@@ -19,7 +19,9 @@ public class TechnetiumItemTagProvider extends FabricTagProvider.ItemTagProvider
         getOrCreateTagBuilder(TechnetiumTags.Items.TECHNETIUM_ITEMS)
                 .add(TechnetiumItems.RAW_TECHNETIUM)
                 .add(TechnetiumItems.TECHNETIUM_INGOT)
-                .add(TechnetiumItems.TECHNETIUM_POWDER);
+                .add(TechnetiumItems.TECHNETIUM_POWDER)
+                .add(TechnetiumItems.CRUSHED_RAW_TECHNETIUM)
+                .add(TechnetiumItems.TECHNETIUM_SHEET);
         getOrCreateTagBuilder(AllTags.AllItemTags.CRUSHED_RAW_MATERIALS.tag)
                 .add(TechnetiumItems.CRUSHED_RAW_TECHNETIUM);
     }
