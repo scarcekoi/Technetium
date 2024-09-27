@@ -15,6 +15,7 @@ public class TechnetiumDataGenerator implements DataGeneratorEntrypoint {
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
 
+		pack.addProvider(TechnetiumAdvancementProvider::new);
 		pack.addProvider(TechnetiumBlockTagProvider::new);
 		pack.addProvider(TechnetiumItemTagProvider::new);
 		pack.addProvider(TechnetiumLootTableProvider::new);

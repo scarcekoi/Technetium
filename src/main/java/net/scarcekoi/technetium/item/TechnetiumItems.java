@@ -13,8 +13,7 @@ public class TechnetiumItems {
             .fireproof()));
     public static final Item TECHNETIUM_INGOT = registerItem("technetium_ingot", new Item(new FabricItemSettings()
             .fireproof()));
-    public static final Item TECHNETIUM_POWDER = registerItem("technetium_powder", new Item(new FabricItemSettings()
-            .fireproof()));
+    public static final Item TECHNETIUM_POWDER = registerItem("technetium_powder", new Item(new FabricItemSettings()));
     public static final Item CRUSHED_RAW_TECHNETIUM = registerItem("crushed_raw_technetium", new Item(new FabricItemSettings()
             .fireproof()));
     public static final Item TECHNETIUM_SHEET = registerItem("technetium_sheet", new Item(new FabricItemSettings()

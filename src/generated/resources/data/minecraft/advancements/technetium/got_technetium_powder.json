@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:technetium/root",
+  "criteria": {
+    "got_technetium_powder": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "technetium:technetium_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "And you can inhale it."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "technetium:technetium_powder"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Now It's a Powder"
+    }
+  },
+  "requirements": [
+    [
+      "got_technetium_powder"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,38 @@
+{
+  "criteria": {
+    "got_raw_technetium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "technetium:raw_technetium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "technetium:textures/gui/advancements/backgrounds/technetium.png",
+    "description": {
+      "text": "That's one way to get cancer."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "technetium:raw_technetium"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "A Radioactive Way"
+    }
+  },
+  "requirements": [
+    [
+      "got_raw_technetium"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

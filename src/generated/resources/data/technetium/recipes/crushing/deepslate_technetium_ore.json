@@ -9,11 +9,11 @@
   "results": [
     {
       "count": 7,
-      "item": "technetium:raw_technetium"
+      "item": "technetium:crushed_raw_technetium"
     },
     {
       "chance": 0.25,
-      "item": "technetium:raw_technetium"
+      "item": "technetium:crushed_raw_technetium"
     },
     {
       "chance": 0.75,

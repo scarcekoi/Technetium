@@ -2,17 +2,13 @@
   "type": "create:crushing",
   "ingredients": [
     {
-      "item": "technetium:technetium_ingot"
+      "item": "technetium:crushed_raw_technetium"
     }
   ],
-  "processingTime": 400,
+  "processingTime": 350,
   "results": [
     {
       "count": 4,
-      "item": "technetium:technetium_powder"
-    },
-    {
-      "chance": 0.125,
       "item": "technetium:technetium_powder"
     },
     {
