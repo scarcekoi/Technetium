@@ -36,7 +36,7 @@ public class TechnetiumAdvancementProvider extends FabricAdvancementProvider {
                 .display(
                         TechnetiumItems.TECHNETIUM_POWDER,
                         Text.literal("Now It's a Powder"),
-                        Text.literal("And you can inhale it."),
+                        Text.literal("So you can inhale it."),
                         null,
                         AdvancementFrame.TASK,
                         true,
